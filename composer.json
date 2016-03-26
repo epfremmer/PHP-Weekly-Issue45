@@ -11,7 +11,8 @@
     ],
     "autoload": {
         "psr-4": {
-            "PHPWeekly\\Issue45\\": "src/"
+            "PHPWeekly\\Issue45\\": "src/",
+            "PHPWeekly\\Issue45\\Tests\\": "tests/"
         }
     },
     "require": {
@@ -20,7 +21,9 @@
         "symfony/stopwatch": "^3.0"
     },
     "require-dev": {
-        "php": ">=7.0"
+        "php": ">=7.0",
+        "phpunit/phpunit": "^5.2",
+        "mockery/mockery": "^0.9.4"
     },
     "config": {
         "bin-dir": "bin/"

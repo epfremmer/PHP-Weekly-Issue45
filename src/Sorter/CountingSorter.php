@@ -10,6 +10,7 @@ namespace PHPWeekly\Issue45\Sorter;
 /**
  * Class CountingSorter
  *
+ * @codeCoverageIgnore
  * @see http://kukuruku.co/hub/php/benchmarks-14-sorting-algorithms-and-php-arrays
  * @package PHPWeekly\Issue45\Sorter
  */

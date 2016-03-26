@@ -28,8 +28,5 @@ class NullProfiler extends Profiler
     public function stop(string $algorithm) { }
 
     /** {@inheritdoc} */
-    public function getMemory(string $algorithm) { }
-
-    /** {@inheritdoc} */
     public function getDuration(string $algorithm) { }
 }

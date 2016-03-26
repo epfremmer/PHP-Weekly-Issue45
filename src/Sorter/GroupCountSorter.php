@@ -24,7 +24,10 @@ class GroupCountSorter implements SorterInterface
         $chars = str_split($string);
 
         return implode('', array_reduce($chars, function(array $groups, string $char) {
-            $groups[$char] .= $char;
+            $groups[$char] = isset($groups[$char])
+                ? $groups[$char] . $char
+                : $char;
+
             return $groups;
         }, []));
     }

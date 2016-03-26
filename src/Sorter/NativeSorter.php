@@ -10,6 +10,7 @@ namespace PHPWeekly\Issue45\Sorter;
 /**
  * Class NativeSorter
  *
+ * @codeCoverageIgnore
  * @see http://php.net/manual/en/function.sort.php
  * @package PHPWeekly\Issue45\Sorter
  */
