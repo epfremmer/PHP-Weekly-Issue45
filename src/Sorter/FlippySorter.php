@@ -60,49 +60,4 @@ class FlippySorter implements SorterInterface
 
         return false;
     }
-
-
-
-
-
-
-    /// SAVE ///
-
-//    const SORT_PATTERN = '/(?<char>.)(.+)(\k<char>)/i';
-//
-//    /**
-//     * {@inheritdoc}
-//     */
-//    public function sort(string $string) : string
-//    {
-//        $result = $string;
-//
-//        while (true) {
-//            $flipped = $this->flip($result);
-//
-//            // nothing to sort
-//            if ($flipped === $result) {
-//                break;
-//            }
-//
-//            $result = $flipped;
-//        }
-//
-//        return $result;
-//    }
-//
-//    /**
-//     * Return string after single flip sort pass
-//     *
-//     * @param string $string
-//     * @return string
-//     */
-//    private function flip(string $string) : string
-//    {
-//        $result = preg_replace_callback(self::SORT_PATTERN, function($match) {
-//            return $match[1] . $match[3] . $match[2];
-//        }, strrev($string));
-//
-//        return strrev($result);
-//    }
 }
